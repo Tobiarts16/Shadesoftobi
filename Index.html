@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>shades of tobi</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0d;
+      color: #eee;
+      font-family: "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    nav a {
+      margin-left: 2rem;
+      opacity: 0.75;
+    }
+    nav a:hover {
+      opacity: 1;
+    }
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 3rem;
+      background: url("hero-placeholder.jpg") center/cover no-repeat;
+    }
+    .hero h1 {
+      font-size: 4.5rem;
+      font-weight: 300;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 500px;
+      margin-top: 1rem;
+      opacity: 0.85;
+    }
+    section {
+      max-width: 1200px;
+      margin: 6rem auto;
+      padding: 0 3rem;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      background: #111;
+    }
+    footer {
+      padding: 4rem 3rem;
+      text-align: center;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>shades of tobi</div>
+    <nav>
+      <a href="#work">work</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>the quiet fire</h1>
+    <p>contemporary art & visual design. created from memory, spirit, and silence.</p>
+  </section>
+
+  <section id="work">
+    <h2>selected works</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/600x800" alt="work 1" />
+      <img src="https://via.placeholder.com/600x800" alt="work 2" />
+      <img src="https://via.placeholder.com/600x800" alt="work 3" />
+      <img src="https://via.placeholder.com/600x800" alt="work 4" />
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>about</h2>
+    <p style="max-width:700px;margin:auto;font-size:1.1rem;line-height:1.7;opacity:0.85;text-align:center;">
+      I'm Tobi — an artist and visual designer. I create portraits, paintings, and photo manipulations that feel like memory and breath. My work is rooted in silence, inner fire, and the faith that shape holds spirit.
+    </p>
+  </section>
+
+  <section id="contact" style="text-align:center;">
+    <h2>contact</h2>
+    <p style="opacity:0.85;">TikTok: @tobaeus.zephyros</p>
+  </section>
+
+  <footer>
+    shades of tobi — made in silence.
+  </footer>
+</body>
+  </html>
+                              
